@@ -235,4 +235,12 @@ config CPU_FREQ_GOV_LULZACTIVE
 
 	  If in doubt, say N.
 
+config CPU_FREQ_GOV_INTELLIDEMAND
+	tristate "'Intellidemand' cpufreq governor"
+	depends on CPU_FREQ
+	help
+	'Intellidemand' - a "smart" optimized governor for the hero!
+
+	If in doubt, say N.
+
 endif	# CPU_FREQ
